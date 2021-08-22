@@ -48,7 +48,7 @@ func main() {
 	// If you don't want to use both key and value, ignore the
 	// key by using a placeholder
 	for _, value := range currency {
-		fmt.Printf("%v might be equal to: %v\n", _, value)
+		fmt.Printf("%v might be equal to: %v\n", value)
 	}
 
 	// If only taking key, you don't need the value
