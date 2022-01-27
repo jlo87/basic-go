@@ -33,7 +33,7 @@ func main() {
 
 	// 2.3 Or like this
 	s := make([]int, 4)
-	s = append(s, 60, 70)
+	s = append(s, 60, 70) // use append to add values
 	fmt.Println("s:", s)
 
 	// Manipulate slice
