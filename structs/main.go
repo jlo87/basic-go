@@ -18,9 +18,9 @@ func main() {
 	// Initialize a person, of type Person
 	// Assigning values to the fields in person struct
 	p1 := Person{
-		FirstName: "Jonathan",
-		LastName:  "Lo",
-		Age:       34,
+		FirstName: "John",
+		LastName:  "Doe",
+		Age:       30,
 	}
 
 	fmt.Println("His name is: ", p1)
