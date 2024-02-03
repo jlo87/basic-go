@@ -24,7 +24,7 @@ func printTo15() {
 
 func printTo10() {
 	for i := 1; i <= 10; i++ {
-		pl("Fun 1 :", i)
+		pl("Fun 2 :", i)
 	}
 }
 
