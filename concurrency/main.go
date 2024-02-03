@@ -29,6 +29,8 @@ func printTo10() {
 }
 
 func main() {
+	// When using go routine, you cannot trust in what order
+	// they are going to execute - so we need channels
 	go printTo15()
 	go printTo10()
 
